@@ -131,9 +131,12 @@
     }
     nav>ul>li>a{
         font-size: 18px;
-
- /* Seperate Icon Hover Effect for Larger Screens with more real estate */
     }
+    .hello{
+        font-size: 50px;
+    }
+ /* Seperate Icon Hover Effect for Larger Screens with more real estate */
+   
     .icons{
         display: none;
        }
