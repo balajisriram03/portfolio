@@ -861,6 +861,10 @@ footer>span>a:hover{
         
 
 }
+.icon>a{
+    text-decoration: none;
+    color: #ffffff;
+}
 }
 
 
