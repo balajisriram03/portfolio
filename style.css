@@ -313,20 +313,20 @@ em{
     animation: progress 0.4s ease-in-out forwards;
     opacity: 0;
 }
-.skill-per.html{
-    width: 80%;
+.skill-per.com{
+    width: 97%;
     animation-delay: 0.4s;
 }
-.skill-per.css{
-    width: 70%;
+.skill-per.gam{
+    width: 89%;
     animation-delay: 0.5s;
 }
-.skill-per.javascript{
-    width: 50%;
+.skill-per.ps{
+    width: 77%;
     animation-delay: 0.6s;
 }
-.skill-per.nodejs{
-    width: 30%;
+.skill-per.sc{
+    width: 65%;
     animation-delay: 0.7s;
 }
 /* Animation for SkillBox */
@@ -417,7 +417,7 @@ em{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     margin-bottom: 5px;
-    color: black;
+    color: #ffffff;
   }
   
   .projects > div {
@@ -593,7 +593,7 @@ em{
 
 .contact{
     text-align: center;
-    background-color: #F7F7F7;
+    background-color: #000000;
     padding: 20px;
 }
 .contact>div>div{
@@ -609,7 +609,7 @@ em{
     transition: 0.5s;
 }
 .contact>div>div>span:hover{
-    background-color: black;
+    background-color: #1A6ED8;
     color: white;
 }
 .contact>div>div>h4{
