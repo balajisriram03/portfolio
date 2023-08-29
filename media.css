@@ -13,6 +13,17 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+.review {
+    width: 85vw;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+    .review {
+        width: 75vw;
+      }
+    }
+@    
 @media screen and (min-width:700px){
     .projects>div{
         margin: 20px;
@@ -229,7 +240,11 @@
     color: #ffffff;
 }
 }
-
+@media screen and (min-width: 1024px) {
+    .review {
+        width: 50vw;
+      }
+    }
 
 @media screen and (min-width:1400px){
     .form>div>*,textarea{
@@ -238,19 +253,44 @@
     .form>div{
         width: 900px;
     }
-    #download{
-        margin-left: 50em;
-       }
-       #contactme{
-         margin-right: 17em;
-       }
+       
+       .review {
+        width: 50vw;
+      }
     }
        
 
        /* Improving Content Visiblity for very large screens */
 
-@media screen and (min-width:1921px){
-    header{
-        background-size:auto;
-    }
-}
+       @media screen and (min-width: 1921px) {
+        header {
+          background-size: auto;
+        }
+      }
+      
+      @media screen and (min-width: 320px) and (max-width: 370px),
+             (min-width: 370px) and (max-width: 481px) {
+        .review {
+          width: 85vw;
+        }
+      }
+      
+      @media screen and (min-width: 481px) and (max-width: 600px),
+             (min-width: 600px) and (max-width: 670px) {
+        .review {
+          width: 75vw;
+        }
+      }
+      
+      @media screen and (min-width: 671px) and (max-width: 769px) {
+        .name-header1 {
+          width: 33vw;
+        }
+      }
+      
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .review {
+          width: 65vw;
+        }
+      }
+  
