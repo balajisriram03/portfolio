@@ -408,7 +408,8 @@ em{
     line-height: 1.1;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    margin-bottom: 5px;
+    /* margin-top: 20px; */
+    /* padding-bottom: 10px; */
     color: #ffffff;
   }
   .contact > h1 {
@@ -417,7 +418,7 @@ em{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     margin-bottom: 5px;
-    color: #ffffff;
+    color: #000000;
   }
   
   .projects > div {
@@ -506,7 +507,7 @@ em{
     overflow: hidden;
     margin:20px auto;
     text-align: center;
-    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */
   }
 .reviews>h1{
     padding-bottom: 20px;
@@ -593,7 +594,7 @@ em{
 
 .contact{
     text-align: center;
-    background-color: #000000;
+    background-color: #F7F7F7;
     padding: 20px;
 }
 .contact>div>div{
@@ -609,7 +610,7 @@ em{
     transition: 0.5s;
 }
 .contact>div>div>span:hover{
-    background-color: #1A6ED8;
+    background-color: #000000;
     color: white;
 }
 .contact>div>div>h4{
@@ -652,14 +653,14 @@ em{
 }
 .form>span{
     display: block;
-    /* width: 150px; */
+    width: 150px;
     text-align: center;
     background-color: black;
     color: white;
     padding: 10px 0;
     border-radius: 5px;
-    margin-left:  100px;
-    margin-right:  100px;
+    /* margin-left:  100px; */
+    /* margin-right:  100px; */
 
 }
 

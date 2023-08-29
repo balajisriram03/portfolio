@@ -88,6 +88,15 @@
         margin: 0;
         margin-inline: -4px;
     }
+    .aboutbase{
+        justify-content: center;
+    }
+    #download{
+        margin-left: 300px;
+    }
+    #contactme{
+        margin-left: 40px;
+    }
 }
 
 @media screen and (min-width:900px){
